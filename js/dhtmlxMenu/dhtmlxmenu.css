@@ -1,0 +1,186 @@
+/*button text - all levels*/
+.menuButtonSecond td, .menuButton td, .menuButtondown td, .menuButtonover td {
+	cursor:default;
+}
+/*menu text - all levels*/
+.defaultMenuText{
+	
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+	padding-top:10px;
+	text-align:left;
+}
+/*disabled menu text - all levels*/
+.buttonTextDisabled{
+	font: 11px "Microsoft Sans Serif",Arial;
+	padding-left:10px;
+	padding-right:5px;
+    color:gray;
+}
+
+/*menu caption if any*/
+.menuName{
+	color : gray;
+	letter-spacing : 7px;
+	font : 11px Arial,sans-serif;
+	padding-left : 10px;
+	padding-right : 10px;
+}
+/*========= BUTTONS ======================*/
+
+/*plain button state - top level*/
+.menuButton {
+	
+	padding: 0 10px;
+}
+/*down button state - top level*/
+.menuButtondown {
+	
+	border-bottom : solid 2px #FB008F;
+	
+	padding: 0 10px;
+	cursor : default;
+}
+/*mouse over button state - top level*/
+.menuButtonover {
+	
+	padding: 0 10px;
+	cursor : default;
+}
+/*plain button state - other levels*/
+.menuButtonSecond {
+	background-color:#EAF1F1;
+	border:1px solid #EAF1F1;
+	font:12px Arial,sans-serif;
+}
+/*mouse over button and down button states - other levels*/
+.menuButtonSecondover, .menuButtonSeconddown {
+
+	background-color : #6495ed;
+	color:navy;
+	cursor : default;
+	border:1px solid navy;
+	font:12px Arial,sans-serif;
+	
+	/*
+	background-color : navy;
+	color:white;
+	cursor : default;
+	border:1px solid navy;
+	font:12px Arial,sans-serif;	*/
+}
+/*icon place style on button over/down - other levels
+.menuButtonSeconddownimg {
+	background-color : #C9D9F5;
+}*/
+
+/*text of mouse over button - other levels*/
+.menuButtonSeconddown td {
+	color:navy;
+	 cursor:default;
+	 border:0px solid;
+	
+	 /*
+	 color:white;
+	 cursor:default;
+	 border:0px solid;	*/ 
+}
+
+
+/*============ PANELS and DEVIDERS ===========================================*/
+
+/*manu panel - top level*/
+.menuTable{
+	background-color : #fff;
+	border-bottom : solid #fff 1px;
+	border-left : solid #FFFFFF 1px;
+	border-right : solid #fff 1px;
+	border-top : solid #fff 1px;
+	margin : 0px;
+	-moz-user-select : none;
+	padding : 0px;
+	
+}
+/*menu panel - other levels*/
+.secondMenuTable{
+	background-color : #fff;
+	border: 1px #d8e2e7; 
+	margin : 5px;
+	margin-top: 15px;
+	border-radius: 10px;
+	box-shadow: 0 2px 0 rgba(90,97,105,.11), 0 4px 8px rgba(90,97,105,.12), 0 10px 10px rgba(90,97,105,.06), 0 7px 70px rgba(90,97,105,.1);
+    -moz-user-select : none;
+	padding : 5px 5px 5px 5px;
+}
+
+/*devider - horizontal*/
+.menuDivider {
+	background-color : #EAF1F1;
+	border-left : solid #808080 1px;
+	border-right : solid #FFFFFF 1px;
+	height : 100%;
+	margin-bottom : 2px;
+	margin-top : 1px;
+	overflow : hidden;
+	vertical-align : middle;
+	width : 2px;
+}
+/*devider - vertical*/
+.menuDividerY {
+	background-color : #EAF1F1;
+	border-bottom : solid #FFFFFF 1px;
+	border-top : solid #808080 1px;
+	height : 2px;
+	overflow : hidden;
+	width : 100%;
+}
+
+/*================== DRAG HANDLERS ==================*/
+
+/*drag handler for menu - horizontal*/
+.menuHandle {
+	background-color : #EAF1F1;
+	border-bottom : solid #808080 1px;
+	border-left : solid #FFFFFF 1px;
+	border-right : solid #808080 1px;
+	border-top : solid #FFFFFF 1px;
+	cursor : move;
+	height : 100%;
+	overflow : hidden;
+	width : 3px;
+}
+/*drag handler for menu - vertical*/
+.vmenuHandle {
+	background-color : #EAF1F1;
+	border-bottom : solid #808080 1px;
+	border-left : solid #FFFFFF 1px;
+	border-right : solid #808080 1px;
+	border-top : solid #FFFFFF 1px;
+	cursor : move;
+	height : 3px;
+}
+
+
+/*============ ICONS and SCROLLERS ====================*/
+
+/*disabled icon - all levels*/
+.iconGray {
+	filter : BlendTrans(Percent=50) gray();
+	cursor: default;
+	border:solid 1px #EAF1F1;
+}
+
+/*enabled scroller*/
+.menuScrollerEnabled{
+	background-color:#CAC8D4;
+	 cursor: pointer;
+	 text-align:center;
+}
+/*disabled scroller*/
+.menuScrollerDisabled{
+	background-color: #CAC8D4;
+	cursor: default;
+	visibility:hidden;
+	text-align:center;
+}

@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+.btn
+{
+	behavior: url(../css/pie/PIE.htc);
+}
+
+.btn-form-control
+{
+	behavior: url(../css/pie/PIE.htc);
+}
