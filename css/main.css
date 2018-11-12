@@ -1824,10 +1824,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0031f9', end
 
 /*不到1024就會隱藏，在１０２４之前的都會隱藏*/
 @media (max-width: 1023px) {
-	.vs {
-		display: none;
-	}
-	.p-l-50 { padding-left: 15px;}
+	.vs {	display: none;	}
+	.p-l-50 { padding-left: 15px;}	
+	.m-r-20 { margin-right: 0px; }
+    .m-l-20 { margin-left: 0px; }
 }
 
 .t-menu{
@@ -1848,6 +1848,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0031f9', end
   .navbar-nav > li > a {
     padding-top: 20px;    
   }
+  	
 }
 
 @media (min-width: 768px){
@@ -1888,7 +1889,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0031f9', end
 	height:45px;
 }
 
+.text-success {
+    color: #17BE66;
+}
 
+.text-fail {
+    color: #E60012;
+}
 
 
 
